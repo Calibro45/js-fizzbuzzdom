@@ -9,22 +9,20 @@ const FizzBuzz = FIZZ + BUZZ;
 for (let i = 1; i <=100; i++) {
     //console.log(i);
     
-    // per i multipli di 3 stampa Fizz
     
-    if (i % 3 === 0) {
-
-        // multi di 15 FizzBuzz
-
-        if (i % 5 === 0) {
-
-            console.log(FizzBuzz);
-
-        } else {
-
-            console.log(FIZZ);
-        }
+    // multi di 15 FizzBuzz
+    
+    if ((i % 3 === 0) && (i % 5 === 0)) {
         
-        // multi di 5  Buzz
+        console.log(FizzBuzz);
+        
+        // per i multipli di 3 stampa Fizz
+
+    } else if (i % 3 === 0) {
+
+        console.log(FIZZ);
+
+        // multi di 5 stampa Buzz
 
     } else if (i % 5 === 0) {
 
@@ -33,6 +31,7 @@ for (let i = 1; i <=100; i++) {
     } else {
 
         console.log(i);
+
     }
     
 }
