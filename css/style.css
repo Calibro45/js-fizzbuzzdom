@@ -28,3 +28,34 @@ ol, ul {
     font-size: 64px;
     text-align: center;
 }
+
+.row {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 2%;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.col {
+    width: calc(88% / 7);
+    padding: 55px;
+}
+
+.blue {
+    background-color: #1389b2;
+}
+
+.green {
+    background-color: #0bd6a1;
+}
+
+.yellow {
+    background-color: #ffd166;
+}
+
+.red {
+    background-color: #f0466f;
+}
