@@ -13,7 +13,18 @@ for (let i = 1; i <=100; i++) {
     
     if (i % 3 === 0) {
 
-        console.log(FIZZ);
+        // multi di 15 FizzBuzz
+
+        if (i % 5 === 0) {
+
+            console.log(FizzBuzz);
+
+        } else {
+
+            console.log(FIZZ);
+        }
+        
+        // multi di 5  Buzz
 
     } else if (i % 5 === 0) {
 
@@ -26,6 +37,4 @@ for (let i = 1; i <=100; i++) {
     
 }
 
-// multi di 5  Buzz
-// multi di 15 FizzBuzz
 
